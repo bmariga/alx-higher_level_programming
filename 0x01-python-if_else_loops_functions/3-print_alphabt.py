@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    if chr(i) not in 'qe':
-        print(chr(i), end='')
-
+for char in range(26):
+    if char != 4 and char != 16:
+        print("{:s}".format(chr(char + ord("a"))), end="")
