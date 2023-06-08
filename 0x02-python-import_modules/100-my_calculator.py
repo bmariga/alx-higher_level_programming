@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
 
-    n_args = len(sys.argv) - 1
+    no_args = len(sys.argv) - 1
     if no_args != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
@@ -23,4 +23,4 @@ if __name__ == "__main__":
     elif op == '*':
         print("{} * {} = {}".format(a, b, mul(a, b)))
     else:
-        print("{} / {} = {}".format(a, b, div(a, b)))i
+        print("{} / {} = {}".format(a, b, div(a, b)))
