@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const process = require("process");
+const process = require('process');
 const firstArg = process.argv[2];
 const num = parseInt(firstArg);
 
@@ -17,5 +17,5 @@ function calcFactorial(x) {
 if (!isNaN(num)) {
   console.log(calcFactorial(num));
 } else {
-  console.log("1");
+  console.log('1');
 }
