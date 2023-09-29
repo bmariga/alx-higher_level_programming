@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""using urllib to send requests"""
+"""using urllib to send requests and displays the value of the X-Request-Id variable found in the header of the response"""
 
 import sys
 from urllib import request
